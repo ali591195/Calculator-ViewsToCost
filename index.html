@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="main" class="d-flex flex-col mx-auto w-50">
+      <form class="d-flex flex-col flex-align-center form-color p-10px">
+        <label class="mb">Views</label>
+        <input
+          id="view-input"
+          class="form-color f-size-75px"
+          placeholder="0"
+          type="number"
+          required
+        />
+        <button type="button" class="div-color" id="convert-btn">
+          <i id="btn-text" class="fa-solid fa-arrow-down fa-fade"></i>
+        </button>
+      </form>
+      <div class="d-flex flex-col flex-align-center p-10px div-color">
+        <label>Cost</label>
+        <p id="cost-p" class="f-size-75px">0$</p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/24aca26fc8.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
